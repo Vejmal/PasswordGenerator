@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 5px;
+  width: 370px;
+  box-shadow: 0 0 8px 2px gold;
+}
+
+h1 {
+  font-size: 24px;
+  color: gold;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: silver;
+  border-bottom: 1px solid silver;
+  text-transform: uppercase;
+}
+
+.form-control label {
+  cursor: pointer;
+}
+
+.p-header {
+  position: relative;
+}
+
+.p-header input {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  padding: 14px;
+  color: gold;
+  border-radius: 3px;
+  font-size: 22px;
+  outline: none;
+  border: 1px solid gold;
+  text-align: center;
+}
+
+.p-header button,
+.form-control input[type=number] {
+  padding: 3px 5px;
+  background-color: silver;
+  outline: none;
+  border: none;
+  border-radius: 3px 0 0 0;
+}
+
+.p-body
+
+.p-header button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+#submit {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #3282b8;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: all .3s;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#submit:hover {
+  background-color: gold;
+}
+
+#submit:active {
+  background-color: #3282b8;
+}
